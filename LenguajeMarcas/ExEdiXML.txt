@@ -1,0 +1,62 @@
+INVRPT_D_96A_EN_EAN004
+BGM|1568|35|
+DTM|20000605||20000605|
+NADMS|EAN 5456789000017|JGUTIERREZ S.A|C\XML 27|Llagostera-Girona|17233|Spain||
+NADMR|EAN 3323456007896||||||
+
+
+LIN||||
+QTYLIN|17|190|||
+QTYLIN|61E|140|||
+QTYLIN|34E|50|||
+QTYLIN|199|25||1|
+QTYLIN|217|0|||
+QTYLIN|65|0|||
+
+LIN||||
+QTYLIN|17|25|||
+QTYLIN|61E|0|||
+QTYLIN|34E|25|||
+QTYLIN|199|25||1|
+QTYLIN|217|75||| 
+QTYLIN|65|75|||
+
+
+<!-- Versión xml del archivo -->
+
+<informeStock num="1568", fecha="05/06/2000">
+
+	<emisor codigo="EAN 5456789000017"> 
+		<razonSocial> JGUTIERREZ S.A. </razonSocial>
+
+		<direccion>
+			<domicilio> C\XML 27 </domicilio>
+			<poblacion> Llagostera ¿ Girona </poblacion>
+			<codPostal> 17233 </codPostal>
+			<pais> España </pais>
+		</direccion> 
+	</emisor>
+
+	<receptor codigo="EAN 3323456007896" > </receptor>
+
+	<stock>
+
+		<articulo codigo="EAN 5412345000105">
+			<totalDisponible> 190 </totalDisponible>
+			<disponibleParaEnvio> 140 </disponibleParaEnvio>
+			<totalReservado> 50 </totalReservado>
+			<retirados> 25 </retirados>
+			<averiados> 0 </averiados> 
+		</articulo>
+
+		<articulo codigo="EAN 5412345000112">
+			<totalDisponible> 25 </totalDisponible>
+			<disponibleParaEnvio> 0 </disponibleParaEnvio>
+			<totalReservado> 25 </totalReservado>
+			<retirados> 25 </retirados>
+			<averiados> 75 </averiados> 
+		</articulo>
+
+	</stock>
+
+</informeStock> 
